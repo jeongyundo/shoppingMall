@@ -1,0 +1,44 @@
+body {
+    font-family: 'Nanum Myeongjo', serif;
+}
+.navbar {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 12px;
+    
+}
+
+.navbar__logo {
+    font-size: 24px;
+}
+.navbar__logo a{
+    padding: 8px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar__menu {
+    display: flex;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.navbar__menu a {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar__icons {
+    
+    display: flex;
+    text-decoration: none;
+}
+
+.navbar__icons a {
+    padding: 7px 12px;
+    text-decoration: none;
+    color: black;
+}
