@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { Fragment } from 'react';
 import '../../style/window.css'
+import { ItemList } from '../item/ItemList';
 
 
 export const BestWindow = () => {
@@ -11,7 +12,7 @@ export const BestWindow = () => {
                 WEEKLY BEST
             </div>
             <div className="window__list">
-                WEEKLY BEST
+                <ItemList></ItemList>
             </div>
         </Fragment>
     )

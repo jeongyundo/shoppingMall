@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { Fragment } from 'react';
 import '../../style/window.css'
+import { ItemList } from '../item/ItemList';
 
 
 export const DiscountWindow = () => {
@@ -11,7 +12,7 @@ export const DiscountWindow = () => {
                 ON DISCOUNT
             </div>
             <div className="window__list">
-                ON DISCOUNT
+                <ItemList></ItemList>
             </div>
         </Fragment>
     )

@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { Fragment } from 'react';
 import '../../style/window.css'
+import { ItemList } from '../item/ItemList';
 
 export const SteadyWindow = () => {
     return (
@@ -10,7 +11,7 @@ export const SteadyWindow = () => {
                 STEADY SELLER
             </div>
             <div className="window__list">
-                STEADY SELLER
+                <ItemList></ItemList>
             </div>
         </Fragment>
     )

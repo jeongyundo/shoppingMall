@@ -1,4 +1,12 @@
 .mainpage {
-    width: 1080px;
+    width: 1280px;
     margin: auto;
+}
+
+#root {
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
 }

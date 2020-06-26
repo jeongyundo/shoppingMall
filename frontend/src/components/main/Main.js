@@ -7,7 +7,7 @@ import { SteadyWindow } from '../window/SteadyWindow';
 import '../../style/main.css'
 import { Promotion } from '../promotion/Promotion';
 
-export const Main = () => {
+const Main = () => {
     return (
         <div className="mainpage">
             <Promotion></Promotion>

@@ -1,0 +1,15 @@
+.item__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.item__list .item__settings {
+    display: flex;
+}
+
+
+.item__list .item__settings li{
+    display: flex;
+    padding: 5px;
+}

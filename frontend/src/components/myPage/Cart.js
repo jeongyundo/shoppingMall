@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
 import { connect } from 'react-redux'
 
-export const Detail = () => {
+export const Cart = () => {
     return (
         <div>
-            
+            Cart
         </div>
     )
 }
@@ -17,4 +17,4 @@ const mapDispatchToProps = {
     
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Detail)
+export default connect(mapStateToProps, mapDispatchToProps)(Cart)

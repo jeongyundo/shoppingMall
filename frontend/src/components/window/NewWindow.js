@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { Fragment } from 'react';
 import '../../style/window.css'
+import { ItemList } from '../item/ItemList';
 
 
 export const NewWindow = () => {
@@ -11,7 +12,7 @@ export const NewWindow = () => {
                 NEW ARRIVAL
             </div>
             <div className="window__list">
-                NEW ARRIVAL
+                <ItemList></ItemList>
             </div>
         </Fragment>
     )

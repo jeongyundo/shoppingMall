@@ -1,0 +1,48 @@
+.footer {
+    width:100%;
+    display: flex;
+    overflow: hidden;
+    bottom: 0%;
+    position: relative;
+}
+
+.footer__details {
+    margin-left: auto;
+    font-size: 15px;
+    padding: 8px 12px;
+    color: black;
+}
+
+.footer__logos {
+    margin: auto;
+    font-size: 20px;
+    padding: 8px 12px;
+    color: black;
+    margin: auto
+}
+
+
+.footer__details li {
+    margin: auto;
+    padding: 5px;
+}
+
+.footer__icons {
+    text-decoration: none;
+    margin: 0px 200px 10px 10px;
+    font-size: 15px;
+    padding: 8px 12px;
+    color: black;
+}
+
+.footer__icons li {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+.footer__icons li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
