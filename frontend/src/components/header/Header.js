@@ -15,7 +15,7 @@ function Header() {
                 <li><Link to="/mypage">마이페이지</Link></li>
             </ul>
             <ul className="navbar__icons">
-                <li><Link to="/cart"><i className="fas fa-shopping-cart"></i></Link></li>
+                <li><Link to="/mypage/cart"><i className="fas fa-shopping-cart"></i></Link></li>
             </ul>
         </nav>
     )
